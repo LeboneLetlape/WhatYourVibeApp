@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_margin="2dp"
+        android:background="@color/colorWhite"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <TextView
+                android:text="VIP"
+                android:id="@+id/mTextViewName"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:src="@drawable/ic_baseline_local_activity_24"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <TextView
+                android:text="R400"
+                android:id="@+id/mTextViewPrice"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

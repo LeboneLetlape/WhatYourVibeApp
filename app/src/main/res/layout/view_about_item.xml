@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_baseline_info_24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/mTextViewTitle"
+                    android:textSize="18dp"
+                    android:padding="1dp"
+                    android:textColor="#4CAF50"
+                    android:textStyle="bold"
+                    android:text="COVID 19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/mTextViewDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:padding="1dp"
+                    android:text="Install successfully finished in 7 s 821 ms. Gradle build finished in 4 m 2 s 206 ms"
+                    android:textColor="#7E7E7E"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

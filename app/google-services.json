@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "840702360461",
+    "firebase_url": "https://whats-yours-vibe.firebaseio.com",
+    "project_id": "whats-yours-vibe",
+    "storage_bucket": "whats-yours-vibe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840702360461:android:17dfb0a0d7a1442093dbc4",
+        "android_client_info": {
+          "package_name": "za.co.whatyourvibe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840702360461-eqc531alb2gnkv5s1g1hkb8497afdv6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0-Ch0eH51ZJLNa8r7elZ-6CoCPzQcSoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840702360461-eqc531alb2gnkv5s1g1hkb8497afdv6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

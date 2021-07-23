@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.ProfileMVP.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.HomeMVP.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_all_events"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.EventMVP.EventsFragment"
+        android:label="All Events"
+        tools:layout="@layout/fragment_events" />
+
+    <fragment
+        android:id="@+id/nav_trending_events"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.TrendingMVP.TrendingEventsFragment"
+        android:label="Trending Events"
+        tools:layout="@layout/fragment_trending_events" />
+
+    <fragment
+        android:id="@+id/nav_my_events"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.MyEvents.MyEventsFragment"
+        android:label="My Events"
+        tools:layout="@layout/fragment_my_events" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.AboutMVP.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="za.co.whatyourvibe.PresentationLayer.Fragments.ContactMVP.ContactFragment"
+        android:label="Contact"
+        tools:layout="@layout/fragment_contact" />
+
+</navigation>

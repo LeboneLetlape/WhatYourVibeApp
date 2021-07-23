@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        tools:context=".PresentationLayer.Activities.EventActivities.EventContactMVP.EventContactActivity">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"
+            android:text="Social"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="14dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:textAlignment="center"
+            android:text="Please fill in all the social media links of the event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:padding="4dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_008_twitter"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            app:tint="@color/quantum_black_text" />
+
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/mTextViewSocialMediaName"
+                                android:textColor="@color/quantum_black_text"
+                                android:text="Tweeter"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textColor="@color/quantum_black_text"
+                                    android:gravity="fill_vertical"
+                                    android:text="Link:"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+                                <EditText
+                                    android:textColor="@color/quantum_black_text"
+                                    android:inputType="text"
+                                    android:layout_weight="1"
+                                    android:id="@+id/mTextViewTweeterLink"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:padding="4dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_029_instagram"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            app:tint="@color/quantum_black_text" />
+
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textColor="@color/quantum_black_text"
+                                android:text="Instagram"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textColor="@color/quantum_black_text"
+                                    android:gravity="fill_vertical"
+                                    android:text="Link:"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+                                <EditText
+                                    android:textColor="@color/quantum_black_text"
+                                    android:inputType="text"
+                                    android:layout_weight="1"
+                                    android:id="@+id/mTextViewInstagramLink"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:padding="4dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_036_facebook"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            app:tint="@color/quantum_black_text" />
+
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textColor="@color/quantum_black_text"
+                                android:text="Facebook"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:textColor="@color/quantum_black_text"
+                                    android:gravity="fill_vertical"
+                                    android:text="Link:"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+                                <EditText
+                                    android:textColor="@color/quantum_black_text"
+                                    android:inputType="text"
+                                    android:layout_weight="1"
+                                    android:id="@+id/mTextViewFacebookLink"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <Button
+            android:text="Done"
+            android:layout_margin="5dp"
+            android:id="@+id/mButtonDone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</layout>

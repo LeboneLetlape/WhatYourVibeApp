@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_house_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_all_events"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="All Events" />
+
+        <item
+            android:id="@+id/nav_trending_events"
+            android:icon="@drawable/ic_baseline_event_available_24"
+            android:title="Trending Events" />
+
+        <item
+            android:id="@+id/nav_my_events"
+            android:icon="@drawable/ic_baseline_event_24"
+            android:title="My Events" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_error_outline_24"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_phone_android_24"
+            android:title="Contact" />
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Log Out" />
+
+    </group>
+</menu>

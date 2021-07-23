@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_baseline_person_24"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:tint="@color/colorPrimary"
+                app:tint="@color/colorPrimary"
+                tools:ignore="UseAppTint" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/mTextViewUser"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:text="Lebone Letlape"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/mTextViewEmail"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16dp"
+                    android:text="leboneletlape@gmail.com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/mTextViewCell"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="0784647474"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
